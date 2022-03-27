@@ -9,6 +9,7 @@ body {
     background-image: url(mjh-shikder-qwMfZVm3yRI-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header {
