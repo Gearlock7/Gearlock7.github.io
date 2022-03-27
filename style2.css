@@ -1,0 +1,71 @@
+*{
+    font-family: 'Red Hat Mono', monospace;
+    font-weight: 300;
+    font-size: 1em;
+    margin: 0px;
+}
+body {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.logo {
+    padding-left: 40px;
+    width: 70px;
+    height: auto;
+}
+
+header a {
+    font-family: 'Red Hat Mono', monospace;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 50px;
+    transition: all 0.1s;
+}
+
+a:hover {
+    color: rgba(75, 176, 154, 1);
+}
+
+.about {
+    display: flex;
+    background-color: #111111;
+}
+
+h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 5em;
+    color: rgba(75, 176, 154,.7);
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+
+p {
+    color: rgb(211, 211, 211);
+    padding: 15px;
+    font-size: 1.7em;
+}
+
+section.about > img {
+    width: 45em;
+    height: auto;
+    float:right;
+}
+
+ul img {
+    padding: 10px;
+    width: 60px;
+    transition: 0.25s;
+}
+ul img:hover {
+    width: 62px;
+}

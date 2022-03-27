@@ -1,0 +1,130 @@
+*{
+    font-family: 'Red Hat Mono', monospace;
+    font-weight: 300;
+    font-size: 1em;
+    margin: 0px;
+}
+body {
+    margin: 0px;
+    background-image: url(mjh-shikder-qwMfZVm3yRI-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.logo {
+    padding-left: 40px;
+    width: 70px;
+    height: auto;
+}
+
+header > nav > a {
+    font-family: 'Red Hat Mono', monospace;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 50px;
+    transition: all 0.1s;
+}
+
+a:hover {
+    color: rgba(75, 176, 154, 1);
+}
+
+#pagedivision {
+    display: flex;
+    justify-content: center;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #01060C;
+}
+aside img {
+    width: 200px;
+    padding: 5px;
+    margin: 45px;
+    border: 2px solid #9EEFC6;
+    border-radius: 50%;
+}
+
+aside h1 {
+    font-size: 1.4em;
+    text-transform: uppercase;
+    color: #eff5ff;
+    margin-top: 30px;
+    padding-left: 20px;
+    border-left: 20px solid #9EEFC6;
+    background-color: #0F233E;
+    box-shadow: 3px 3px 3px #041932;
+}
+aside h2 {
+    color: white;
+    padding: 30px;
+    padding-bottom: 0px;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+aside p {
+    color: white;
+    padding-left: 30px;
+    font-size: 0.9em;;
+}
+
+aside a {
+    color: white;
+}
+#pagedivision > section {
+    width: 700px;
+    background-color: #181a1b;
+}
+
+#pagedivision > section > h1 {
+    margin-top: 30px;
+    margin-bottom:50px;
+    font-size: 4em;
+    color: #eff5ff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    background-color: #0F233E;
+    border-left: 20px solid #9EEFC6;
+    box-shadow: 3px 3px 3px #041932;
+}
+
+ul img {
+    padding: 10px;
+    width: 55px;
+}
+
+#pagedivision > section > h2 {
+    font-size: 1.4em;
+    text-transform: uppercase;
+    color: #eff5ff;
+    padding-left: 20px;
+    border-left: 20px solid #9EEFC6;
+    background-color: #0F233E;
+    box-shadow: 3px 3px 3px #041932;
+}
+
+#pagedivision > section > p {
+    color: #e0e3e3;
+    padding: 30px;
+    font-size: 1.1em;
+}
+
+.workexp {
+    text-transform: uppercase;
+    line-height: 50px;
+}
